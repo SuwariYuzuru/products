@@ -1,0 +1,32 @@
+body {
+   padding: 20px;
+   font-size: 3vw;
+}
+
+nav {
+   background-color: #388e3c;
+}
+
+.action-field {
+   text-align: center;
+}
+
+.match {
+   text-align: center;
+}
+
+.success-register {
+   text-align: center;
+}
+
+.card-action {
+   text-align-last: center;
+}
+
+nav .brand-logo {
+   font-size: 4vw;
+}
+
+h1, h2, h3, h4 {
+   font-size: 5vw !important;
+}

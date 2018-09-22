@@ -1,0 +1,26 @@
+{% include '_header.html' %}
+
+<body>
+   <nav class="nav-extended">
+      <div class="nav-wrapper">
+         <a href="#" class="brand-logo">ゆずるくんとすわるくん</a>
+      </div>
+      <div class="nav-content">
+         <ul class="tabs tabs-transparent swipable">
+            <li class="tab col s3"><a href="#register">ゆずるくん</a></li>
+            <li class="tab col s3"><a href="#search">すわるくん</a></li>
+            <!-- <li class="tab col s3"><a href="#sample">SAMPLE</a></li> -->
+         </ul>
+      </div>
+   </nav>
+
+   <div id="main">
+      {% include 'search.html' %}
+      {% include 'register.html' %}
+      <!-- {% include 'sample.html' %} -->
+   </div>
+   
+
+</body>
+
+{% include '_footer.html' %}
